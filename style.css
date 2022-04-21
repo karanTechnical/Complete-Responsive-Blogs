@@ -43,7 +43,7 @@ figure img, .fa-solid{
  }
  .main_header_div{
  	height: calc(100vh - 40vh);
- 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0)),url('image/1.jpg');
+ 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0)),url('image/1.jpg');
  	background-size: var(--bg-size);
  }
  .main_header_div p{
@@ -85,8 +85,8 @@ figure img, .fa-solid{
 
  }
  .flip{
- 	-webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2)infinite ;
- 	animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2)infinite ;
+ 	-webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite ;
+ 	animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite ;
  }
  @-webkit-keyframes flip4{
  	0%{
